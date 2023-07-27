@@ -4,8 +4,11 @@
 
 @import './components/header.css';
 @import './components/call.css';
+@import './components/swiper.css';
 @import './components/section-courses.css';
 @import './components/course-item.css';
+@import './components/section-questions.css';
+@import './components/section-form.css';
 
 @import './homepage/index.css';
 

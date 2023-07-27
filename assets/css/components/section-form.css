@@ -1,0 +1,14 @@
+.section-form .section__title{
+    color: var(--white);
+}
+
+.section-form .section__title span{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 15px;
+}
+
+.section-form-content{
+    padding: 80px 0px;
+}

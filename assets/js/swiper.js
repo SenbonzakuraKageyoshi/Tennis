@@ -1,32 +1,30 @@
 window.addEventListener('DOMContentLoaded', () => {
     const swiper = new Swiper('.swiper', {
-        direction: 'horizontal',
+        slidesPerView: 1,
+        spaceBetween: 0,
+
         loop: true,
 
-        slidesPerView: 4,
-        spaceBetween: 10,
-      
+        direction: 'horizontal',
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
         
-        // breakpoints: {
-        //     // when window width is >= 320px
-        //     320: {
-        //       slidesPerView: 2,
-        //       spaceBetween: 20
-        //     },
-        //     // when window width is >= 480px
-        //     480: {
-        //       slidesPerView: 3,
-        //       spaceBetween: 30
-        //     },
-        //     // when window width is >= 640px
-        //     640: {
-        //       slidesPerView: 4,
-        //       spaceBetween: 40
-        //     }
-        // }
+        breakpoints: {
+            530: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            815: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1190: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+           
+        }
     });
 })
