@@ -12,3 +12,131 @@
 .section-form-content{
     padding: 80px 0px;
 }
+
+.input-wrapper{
+    position: relative;
+}
+
+.input-wrapper img{
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+
+.input-wrapper:not(:first-child){
+    margin-top: 10px;
+}
+
+.form__input{
+    width: 575px;
+    height: 45px;
+    padding: 2px 2px 2px 50px;
+    border: 2px solid var(--green-light);
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #bbbbbb;
+    font-family: "Roboto";
+}
+
+.section-form form{
+    margin-top: 40px;
+}
+
+.form__message{
+    width: 575px;
+    height: 155px;
+    padding: 2px 2px 2px 20px;
+    border: 2px solid var(--green-light);
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #bbbbbb;
+    font-family: "Roboto";
+}
+
+.form-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__policy{
+    font-size: 15px;
+    line-height: 20px;
+    color: #e8e8e8;
+    font-family: "Roboto";
+}
+
+.form__policy a{
+    font-size: 15px;
+    line-height: 20px;
+    color: #e8e8e8;
+    font-family: "Roboto";
+}
+
+.form-bottom{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-bottom .section-free-course__link{
+    margin-top: 0px !important;
+}
+
+@media(max-width: 1190px){
+    .form__input{
+        width: 350px;
+        height: 45px;
+        padding: 2px 2px 2px 50px;
+        border: 2px solid var(--green-light);
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 32px;
+        color: #bbbbbb;
+        font-family: "Roboto";
+    }
+    
+    .form__message{
+        width: 350px;
+        height: 155px;
+        padding: 2px 2px 2px 20px;
+        border: 2px solid var(--green-light);
+        border-radius: 5px;
+        font-size: 17px;
+        line-height: 32px;
+        color: #bbbbbb;
+        font-family: "Roboto";
+    }
+
+    .section-form form{
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 840px){
+    .form-main, .form-bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-bottom .section-free-course__link{
+        margin-top: 15px !important;
+    }
+
+    .form__message{
+        height: 60px;
+        margin-top: 15px;
+    }
+
+    .section-form-content .section__title{
+        color: var(--black);
+    }
+
+    .section-form-content{
+        padding: 40px 0px;
+    }
+}

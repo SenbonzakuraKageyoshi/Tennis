@@ -3,11 +3,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if(questionButtons){
         const onClickQuestionHandler = (target) => {
+            const parent = target.closest('.questions-list__item');
+
+            if(parent.className === 'questions-list__item active'){
+                return parent.classList.remove('active')
+            };
+
             if(document.querySelector('.questions-list__item.active')){
                 document.querySelector('.questions-list__item.active').classList.remove('active');
             }
-
-            const parent = target.closest('.questions-list__item');
             
             parent.classList.toggle('active');
         }

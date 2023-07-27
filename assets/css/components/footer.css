@@ -1,0 +1,151 @@
+.footer{
+    background: #1d310b;
+    padding: 50px 0px;
+    border-top: 5px solid #6b9731;
+}
+
+.footer .logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo-text{
+    margin-left: 30px;
+}
+
+.logo-text__title{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--red);
+    font-weight: 700;
+}
+
+.logo-text__subtitle{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.logo-text__info{
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.logo-text__links, .logo-text__links a{
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+
+.footer-nav-menu__link{
+    font-size: 15px;
+    line-height: 45px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.footer-nav{
+    display: flex;
+}   
+
+.footer-nav-menu{
+    margin-top: -15px;
+}
+
+.footer-nav-menu:not(:first-child){
+    margin-left: 45px;
+}
+
+.footer-nav-menu__item{
+    margin-top: 15px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: start; 
+    justify-content: space-between;
+}
+
+.footer-contacts{
+    font-size: 15px;
+    line-height: 45px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.footer-contacts__item{
+    width: 105px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 45px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.footer-contacts__item img{
+    margin-right: 7px;
+}
+
+.footer-contacts__item:not(:first-child){
+    margin-top: 4px;
+}
+
+@media(max-width: 1140px){
+    .logo-text__title{
+        font-size: 14px;
+    }
+
+    .logo-text__subtitle{
+        font-size: 12px;
+    }
+
+    .logo-text__info, .logo-text__links, .logo-text__links a{
+        font-size: 12px;
+    }
+
+    .footer .logo-text{
+        margin-left: 10px;
+    }
+
+    .footer-nav-menu__link{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 940px){
+    .footer-content{
+        width: 545px;
+        flex-direction: column;
+        align-items: start;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 560px){
+    .footer-content{
+        width: auto;
+    }
+
+    .logo-text__title, .logo-text__subtitle{
+        display: none;
+    }
+
+    .footer .logo{
+        flex-direction: column;
+    }
+
+    .footer .logo-text{
+        margin-left: 0px;
+    }
+}

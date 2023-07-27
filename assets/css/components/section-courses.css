@@ -1,5 +1,5 @@
 .section-courses{
-    padding: 60px 0px;
+    padding: 20px 0px;
 }
 
 .courses-tags a{
@@ -24,4 +24,16 @@
     flex-wrap: wrap;
     margin-top: 22px;
     margin-left: -18px;
+}
+
+@media(max-width: 1140px){
+    .courses-tags a{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .courses-tags{
+        margin-top: 35px;
+        margin-left: -14px;
+    }
 }
