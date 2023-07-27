@@ -1,0 +1,27 @@
+.section-courses{
+    padding: 60px 0px;
+}
+
+.courses-tags a{
+    font-size: 17px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #a8a8a8;
+    font-family: "Roboto";
+    margin-left: 18px;
+    margin-top: 18px;
+    transition: color;
+}
+
+.courses-tags a:hover{
+    color: var(--red);
+}
+
+.courses-tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 22px;
+    margin-left: -18px;
+}

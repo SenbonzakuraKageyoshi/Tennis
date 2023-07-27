@@ -3,6 +3,9 @@
 @import './vendors/vars.css';
 
 @import './components/header.css';
+@import './components/call.css';
+@import './components/section-courses.css';
+@import './components/course-item.css';
 
 @import './homepage/index.css';
 
@@ -62,6 +65,7 @@ button{
 }
 
 .section__title span{
+    font-weight: 600;
     color: var(--green);
     display: block;
 }
