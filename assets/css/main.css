@@ -12,9 +12,17 @@
 @import './components/footer.css';
 
 @import './homepage/index.css';
+@import './about/index.css';
 
 *{
     font-family: 'Conthrax';
+}
+
+.breadcrumbs, .breadcrumbs a{
+    font-size: 14px;
+    line-height: 28px;
+    color: #b6b6b6;
+    font-family: "Roboto";
 }
 
 button{
