@@ -1,0 +1,20 @@
+.section-videos{
+    padding: 60px 0px;
+}
+
+.section-videos .course-item__title{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.section-videos .course-item{
+    filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+}
+
+.section-videos .swiper-button-next, .swiper-rtl .swiper-button-prev, .section-videos .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    bottom: -460px !important;
+}

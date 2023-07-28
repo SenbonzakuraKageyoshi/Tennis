@@ -1,0 +1,29 @@
+.section-reviews{
+    padding: 60px 0px;
+}
+
+.section-reviews .section-reviews-content{
+    margin-top: 50px;
+}
+
+.section-reviews .swiper-button-next, .swiper-rtl .swiper-button-prev, .section-reviews .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    bottom: -285px !important;
+}
+
+.section-reviews .course-item__title{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.section-reviews .course-item__title span{
+    display: block;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    font-family: "Roboto";
+}

@@ -20,6 +20,20 @@
     background: var(--white);
 }
 
+.course-item a{
+    display: block;
+    position: relative;
+}
+
+.course-item .youtube-icon{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0px;
+    margin: auto;
+    z-index: 1;
+}
+
 .course-item-main{
     padding: 18px 13px 20px 13px;
 }

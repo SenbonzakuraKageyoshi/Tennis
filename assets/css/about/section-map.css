@@ -1,0 +1,12 @@
+.section-map{
+    padding: 70px 0px;
+}
+
+.section-map .container{
+    margin-top: 40px;
+}
+
+.section-map img{
+    max-width: 100%;
+    height: auto;
+}
