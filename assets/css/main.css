@@ -83,13 +83,17 @@ button{
 }
 
 @media(max-width: 768px){
-    .homepage .call-button{
+    .section__title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .call-button{
         font-size: 12px;
         width: 325px;
         height: 40px;
     }
 
-    .homepage .call-button img{
+    .call-button img{
         width: 20px;
         height: 20px;
         top: 11px;

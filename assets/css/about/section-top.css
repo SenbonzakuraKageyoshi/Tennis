@@ -78,3 +78,55 @@
 .about .video__text span{
     color: var(--red);
 }
+
+@media(max-width: 1190px){
+    .about .section-top__title{
+        font-size: 25px;
+    }
+
+    .about .section-top__image{
+        width: 290px;
+        height: 420px;
+        top: 260px;
+        left: -47px;
+    }
+
+    .about .section-top__descr{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about .section-top-main{
+        margin-top: 40px;
+    }
+
+    .about .video{
+        position: static;
+        margin-top: 40px;
+    }
+
+    .section-top-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .section-top{
+        padding: 20px 0px 50px 0px;
+    }
+}
+
+@media(max-width: 890px){
+    .about .section-top__image{
+        position: static;
+    }
+
+    .about .section-top-main{
+        margin-top: 0px;
+    }
+
+    .about .section-top__title{
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
