@@ -1,0 +1,14 @@
+.about .section-about{
+    padding: 60px 0px;
+}
+
+.about .section-about__item{
+    width: 575px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about .section-about__item__title{
+    padding: 20px 0px 20px 25px;
+    background: var(--green);
+}
