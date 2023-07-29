@@ -1,0 +1,81 @@
+.about swiper-slide img {
+  display: block;
+  width: 90px !important;
+  height: 100px;
+  object-fit: cover;
+}
+.about .mySwiper .swiper-slide-active img{
+    display: block;
+    width: 425px !important;
+    height: 318px;
+    object-fit: cover;
+}
+.about .mySwiper2 .swiper-slide-active img{
+    display: block;
+    width: 90px !important;
+    height: 100px;
+    object-fit: cover;
+}
+.about .mySwiper{
+    width: 425px !important;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+}
+.about .mySwiper2{
+    max-width: 425px;
+    background: var(--white);
+    padding: 30px 15px;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+}
+
+.about .section-about-me-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .section-about-me__title{
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.about .section-about-me__descr{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--red);
+    font-family: "Roboto";
+    margin-top: 15px;
+}
+
+.about .section-about-me__text{
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.about .section-about-me__text span{
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.about .section-about-me-list__item{
+    display: flex;
+}
+
+.about .section-about-me-list__item div{
+    margin-left: 10px;
+}
+
+.about .section-about-me-list__item img{
+    transform: translateY(8px);
+}
+
+.about .section-about-me-main{
+    width: 725px;
+}
