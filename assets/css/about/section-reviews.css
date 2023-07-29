@@ -1,16 +1,20 @@
-.section-reviews{
+.about .section-reviews{
     padding: 60px 0px;
 }
 
-.section-reviews .section-reviews-content{
+.about .section-reviews .section__title{
+    color: var(--white);
+}
+
+.about .section-reviews .section-reviews-content{
     margin-top: 50px;
 }
 
-.section-reviews .swiper-button-next, .swiper-rtl .swiper-button-prev, .section-reviews .swiper-button-prev, .swiper-rtl .swiper-button-next{
+.about .section-reviews .swiper-button-next, .swiper-rtl .swiper-button-prev, .section-reviews .swiper-button-prev, .swiper-rtl .swiper-button-next{
     bottom: -285px !important;
 }
 
-.section-reviews .course-item__title{
+.about .section-reviews .course-item__title{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -19,7 +23,7 @@
     font-family: "Roboto";
 }
 
-.section-reviews .course-item__title span{
+.about .section-reviews .course-item__title span{
     display: block;
     font-weight: 300;
     font-size: 18px;

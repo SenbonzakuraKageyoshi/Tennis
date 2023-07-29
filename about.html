@@ -22,6 +22,44 @@
 
     <title itemprop="headline">ОФИЦИАЛЬНЫЙ САЙТ АЛЕКСАНДРА КУЛЯБИНА</title>
 </head>
+<style>
+    swiper-slide img {
+      display: block;
+      width: 90px !important;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .mySwiper .swiper-slide-active img{
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .mySwiper2 .swiper-slide-active img{
+        display: block;
+        width: 90px !important;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .about .mySwiper{
+        width: 425px !important;
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+        filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+    }
+
+    .about .mySwiper2{
+        max-width: 425px;
+        background: var(--white);
+        padding: 30px 15px;
+        border-radius: 0px 0px 10px 10px;
+        filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+    }
+
+  </style>
 <body>
 <div class="header">
     <div class="header-top">
@@ -127,58 +165,60 @@
         </div>
     </section>
     <section class="section-videos">
-        <h4 class="section__title">
-            Принципы
-        </h4>
-        <div class="container">
-            <div class="slider">
-                <div class="swiper" style="margin-top: 40px;">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="course-item">
-                                <a href="">
-                                    <img src="./assets/images/svg/youtube.svg" class="youtube-icon" alt="YouTube" width="63" height="44" loading="lazy">
-                                    <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
-                                </a>
-                                <div class="course-item-main">
-                                    <h1 class="course-item__title">0. Вступление</h1>
+        <div class="wrapper">
+            <h4 class="section__title">
+                Принципы
+            </h4>
+            <div class="container">
+                <div class="slider">
+                    <div class="swiper" style="margin-top: 40px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="course-item">
+                                    <a href="">
+                                        <img src="./assets/images/svg/youtube.svg" class="youtube-icon" alt="YouTube" width="63" height="44" loading="lazy">
+                                        <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
+                                    </a>
+                                    <div class="course-item-main">
+                                        <h1 class="course-item__title">0. Вступление</h1>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="course-item">
-                                <a href="">
-                                    <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
-                                </a>
-                                <div class="course-item-main">
-                                    <h1 class="course-item__title">0. Вступление</h1>
+                            <div class="swiper-slide">
+                                <div class="course-item">
+                                    <a href="">
+                                        <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
+                                    </a>
+                                    <div class="course-item-main">
+                                        <h1 class="course-item__title">0. Вступление</h1>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="course-item">
-                                <a href="">
-                                    <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
-                                </a>
-                                <div class="course-item-main">
-                                    <h1 class="course-item__title">0. Вступление</h1>
+                            <div class="swiper-slide">
+                                <div class="course-item">
+                                    <a href="">
+                                        <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
+                                    </a>
+                                    <div class="course-item-main">
+                                        <h1 class="course-item__title">0. Вступление</h1>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="course-item">
-                                <a href="">
-                                    <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
-                                </a>
-                                <div class="course-item-main">
-                                    <h1 class="course-item__title">0. Вступление</h1>
+                            <div class="swiper-slide">
+                                <div class="course-item">
+                                    <a href="">
+                                        <img src="./assets/images/png/video.png" alt="Вступление" width="250" height="335" loading="lazy" class="course-item__preview">
+                                    </a>
+                                    <div class="course-item-main">
+                                        <h1 class="course-item__title">0. Вступление</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -380,6 +420,96 @@
             </div>
         </div>
     </section>
+    <section class="section-achives" style="background-image: url(./assets/images/png/bg5.png); background-size: auto; background-repeat: no-repeat; background-position: center;">
+        <h4 class="section__title">
+            Достижения учеников
+        </h4>
+        <div class="container">
+            <div class="section-achives-content">
+                <img src="./assets/images/png/achive.png" alt="Достижение" width="280" height="431" loading="lazy" class="section-achives__image">
+                <div>
+                    <div class="section-achives__text">
+                        <img src="./assets/images/svg/about-arrow.svg" width="20" height="42" loading="lazy" alt="Текст достижения">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, nam ex praesentium molestias eum minima eos delectus tempore exercitationem! Dignissimos, alias vel! Ut ipsum eveniet consectetur vero sapiente facilis in quibusdam ipsam, hic aspernatur officia itaque accusantium fuga voluptates modi est molestiae delectus enim. Dolorum, ipsam inventore illo accusantium ad labore suscipit nobis in, delectus eligendi magnam eum ex eos omnis laudantium modi tenetur repellat esse itaque. Iste repellendus blanditiis possimus corporis doloribus eaque. Error, fugiat nihil porro sed distinctio libero neque nostrum eaque deleniti natus sit enim cum a?
+                    </div>
+                    <button class="call-button">
+                        <img src="./assets/images/svg/request.svg" alt="Заявка" width="25" height="25" loading="lazy">
+                        Записаться на консультацию
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about-me">
+        <div class="container">
+            <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
+                <swiper-slide>
+                  <img src="./assets/images/png/about-slider1.png" width="425" height="318" loading="lazy" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                </swiper-slide>
+            </swiper-container>
+            <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
+                watch-slides-progress="true">
+                <swiper-slide>
+                  <img src="./assets/images/png/about-slider1.png" width="90" height="100" loading="lazy"  />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -438,6 +568,7 @@
 <script defer src="./assets/js/script.js"></script>
 <script defer src="./assets/js/swiper.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 </body>
 <script type="application/ld+json">
     {

@@ -19,6 +19,11 @@
     font-family: 'Conthrax';
 }
 
+body{
+    background: url(../images/png/bg5.png);
+    background-size: cover;
+}
+
 .breadcrumbs, .breadcrumbs a{
     font-size: 14px;
     line-height: 28px;
