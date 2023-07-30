@@ -93,6 +93,7 @@
     text-decoration: none;
     border-radius: 5px;
     box-shadow: 0px 4px 0px 0px rgba(18, 110, 0, 1);
+    padding: 0px 10px;
 }
 
 .education .education-list__item-links__item:not(:first-child){

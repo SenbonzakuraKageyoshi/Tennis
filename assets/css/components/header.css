@@ -153,6 +153,35 @@
     }
 
     .header-bottom{
+        display: block;
+        position: absolute;
+        top: 57px;
+        width: 100%;
+        z-index: 50;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.4s;
+    }
+
+    .header-bottom.active{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header-nav__menu{
+        flex-direction: column;
+    }
+
+    .header-nav__menu_item{
+        display: inline;
+    }
+
+    .header-nav__menu_item:not(:first-child){
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .search{
         display: none;
     }
 

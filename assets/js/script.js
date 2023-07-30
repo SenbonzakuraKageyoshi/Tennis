@@ -18,4 +18,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
         questionButtons.forEach((el) => el.addEventListener('click', (e) => onClickQuestionHandler(e.target)))
     };
+
+    const menuButton = document.querySelector('.menu__button'),
+    menu = document.querySelector('.header-bottom');
+
+    const menuHandler = () => menu.classList.toggle('active');
+
+    menuButton.addEventListener('click', menuHandler)
 });

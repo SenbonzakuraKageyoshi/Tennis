@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+.homepage .section-free-course{
+    padding: 0;
+}
+
 .homepage .section-free-course-text{
     color: var(--white);
 }
@@ -21,7 +25,7 @@
     margin-top: 20px;
 }
 
-.homepage .section-free-course__link{
+.section-free-course__link{
     color: var(--white);
     display: flex;
     align-items: center;
@@ -37,7 +41,7 @@
     padding-left: 40px;
 }
 
-.homepage .section-free-course__link::before{
+.section-free-course__link::before{
     content: '';
     width: 1px;
     height: 48px;
@@ -47,7 +51,7 @@
     top: 0;
 }
 
-.homepage .section-free-course__link img{
+.section-free-course__link img{
     position: absolute;
     top: 15px;
     left: 15px;

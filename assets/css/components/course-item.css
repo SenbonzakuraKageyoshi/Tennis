@@ -21,13 +21,14 @@
 }
 
 .course-item a{
-    display: block;
+    display: flex;
     position: relative;
 }
 
 .course-item .youtube-icon{
     position: absolute;
-    top: 40%;
+    top: 0px;
+    bottom: 0;
     left: 0;
     right: 0px;
     margin: auto;

@@ -17,6 +17,14 @@
 @import './education/index.css';
 @import './events/index.css';
 
+section:not(.section-top){
+    padding: 60px 0px;
+}
+
+section:not(.section-questions){
+    overflow-x: hidden;
+}
+
 *{
     font-family: 'Conthrax';
 }
@@ -80,7 +88,30 @@ button{
     line-height: 32px;
     color: var(--black);
     font-weight: 700;
+}
+
+.section__title div{
     position: relative;
+    display: inline;
+}
+
+.section__title .section__title__left{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: -100px;
+    margin: auto;
+    z-index: 1;
+}
+
+.section__title .section__title__right{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: -100px;
+    margin: auto;
+    z-index: 1;
+    transform: rotateZ(180deg);
 }
 
 .section__title span{
