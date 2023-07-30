@@ -51,7 +51,6 @@
 .about .section-about-me__text{
     font-size: 18px;
     line-height: 36px;
-    color: #000000;
     font-weight: 500;
     font-family: "Roboto";
 }
@@ -59,7 +58,6 @@
 .about .section-about-me__text span{
     font-size: 18px;
     line-height: 36px;
-    color: #000000;
     font-weight: 600;
     font-family: "Roboto";
 }
@@ -78,4 +76,121 @@
 
 .about .section-about-me-main{
     width: 725px;
+}
+
+.about .section-about-me{
+    padding: 60px 0px;
+}
+
+.about .section-about-me__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: var(--green);
+    position: relative;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px rgba(18, 110, 0, 1);
+    padding-left: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.about .section-about-me__link:hover{
+    background-color: var(--red);
+    box-shadow: 0px 4px 0px 0px rgba(155, 0, 0, 1);
+}
+
+.about .section-about-me__link img{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+@media(max-width: 1190px){
+    .about .section-about-me__text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .about .section-about-me__text span{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .about .section-about-me-list__item img{
+        width: 10px;
+        height: 10px;
+        transform: translateY(6px);
+    }
+    
+    .about .section-about-me__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .about .section-about-me__descr{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about .section-about-me-main{
+        width: 525px;
+    }
+
+    .about .section-about-me-content{
+        justify-content: space-around;
+    }
+
+    .about swiper-slide img {
+        display: block;
+        width: 70px !important;
+        height: 80px;
+        object-fit: cover;
+      }
+      .about .mySwiper .swiper-slide-active img{
+          display: block;
+          width: 350px !important;
+          height: 250px;
+          object-fit: cover;
+      }
+      .about .mySwiper2 .swiper-slide-active img{
+          display: block;
+          width: 70px !important;
+          height: 80px;
+          object-fit: cover;
+      }
+      .about .mySwiper{
+          width: 350px !important;
+          border-radius: 10px 10px 0px 0px;
+          overflow: hidden;
+          filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+      }
+      .about .mySwiper2{
+          max-width: 350px;
+          background: var(--white);
+          padding: 30px 15px;
+          border-radius: 0px 0px 10px 10px;
+          filter: drop-shadow(0 0 11px rgba(0,0,0,0.08));
+      }
+}
+
+@media(max-width: 920px){
+    .about .section-about-me-content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section-about-me-main{
+        margin-bottom: 40px;
+    }
+
+    .about .section-about-me-main{
+        width: auto;
+    }
 }

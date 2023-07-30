@@ -1,0 +1,167 @@
+.about .section-my-history{
+    padding: 60px 0px;
+}
+
+.about .section-my-history__image{
+    border-radius: 10px;
+}
+
+.about .section-my-history__words{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto";
+    padding: 18px 20px;
+    border: 2px solid #e51919;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about .section-my-history__words img{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: -17px;
+    margin: auto;
+    z-index: 1;
+}
+
+.about .section-my-history__words a{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto";
+    color: var(--black);
+}
+
+.about .section-my-history__conclusion{
+    margin-top: 25px;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .section-my-history-content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.about .section-my-history-main{
+    width: 855px;
+}
+
+.about .section-my-history__conclusion p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about .section-my-history__conclusion-main{
+    width: 520px;
+}
+
+.about .socials__link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.about .socials__link div{
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--black);
+    font-family: "Roboto";
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.about .socials__link span{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--black);
+    font-weight: 700;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.about .socials__link img{
+    margin-right: 10px;
+}
+
+.about .socials{
+    margin-top: 10px;
+}
+
+.about .section-my-history__video__title{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.about .section-my-history__video__title span{
+    display: block;
+    color: var(--red);
+}
+
+@media(max-width: 1190px){
+    .about .section-my-history__words{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about .section-my-history__conclusion p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about .socials__link div{
+        display: flex;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .about .socials__link span{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about .section-my-history-main{
+        width: 650px;
+    }
+
+    .about .section-my-history__conclusion-main{
+        width: auto;
+    }
+}
+
+@media(max-width: 980px){
+    .about .section-my-history-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .section-my-history-main{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .about .section-my-history__words img{
+        display: none;
+    }
+}
+
+@media(max-width: 980px){
+    .about .section-my-history-main{
+        width: auto;
+    }
+    
+    .section-my-history__conclusion{
+        flex-direction: column;
+    }
+}
