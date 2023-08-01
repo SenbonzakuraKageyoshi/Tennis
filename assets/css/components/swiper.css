@@ -25,6 +25,14 @@
     font-size: 30px !important;
 }
 
+.swiper-slide.hidden{
+    display: none;
+}
+
+.swiper-slide{
+    display: block;
+}
+
 .swiper-button-next:hover:after, .swiper-button-prev:hover:after{
     color: var(--red);
 }

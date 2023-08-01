@@ -3,8 +3,6 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 1,
         spaceBetween: 0,
 
-        loop: true,
-
         direction: 'horizontal',
         navigation: {
             nextEl: '.swiper-button-next',

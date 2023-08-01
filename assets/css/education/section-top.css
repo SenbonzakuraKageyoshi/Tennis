@@ -21,14 +21,14 @@
 
 .education .education-list__item__title{
     font-size: 20px;
-    line-height: 32px;
+    line-height: 34px;
     font-weight: 700;
     font-family: "Roboto";
 }
 
 .education .education-list__item__descr{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 24px;
     font-weight: 300;
     font-family: "Roboto";
 }
