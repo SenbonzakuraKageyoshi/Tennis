@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1,
-        spaceBetween: 0,
+        spaceBetween: 0,    
 
         direction: 'horizontal',
         navigation: {
